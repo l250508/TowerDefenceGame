@@ -19,37 +19,11 @@ Features:
 - Save/Load game
 - High score leaderboard
 
-Prerequisites
-Git 
-CMake: 3.15+
-C++ Compiler:  C++17 
-Windows : Visual Studio 2022 
-
-Building the Game:
-
-No need to install SFML. CMake will download it automatically.
-
-Step 1: Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/TowerDefenseGame.git
-cd TowerDefenseGame
-
-Step 2: Build with CMake
-Windows (Command Prompt):
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
-
-Step 3: Run the Game
-Release\TowerDefenseGame.exe
-
 
 How to Play:
 1. Start Game → Enter your name and begin
-2. Buy Towers → Click tower button, then click on grass
-3. Upgrade Towers → Click a tower, then click Upgrade
-4. Delete Towers → Click a tower, then click Delete (no refund)
+2. Buy Towers → Click tower button, then click on grid to place
+3. Upgrade Towers → Rught Click a tower, then click Upgrade Button
 5. Survive → Don't let enemies reach the castle!
 
 
